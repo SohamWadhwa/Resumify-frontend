@@ -1,0 +1,61 @@
+* {
+    font-family: "Montserrat";
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18rem;
+    margin-right: 18rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Roboto Flex";
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0;
+}
+
+.written-by {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.written-by p {
+    margin-bottom: 0.2rem;
+}
+
+.written-by p a {
+    color: rgb(109, 109, 255);
+}
+
+.date {
+    font-size: 12px;
+}
+
+.tips-desc {
+    font-size: 18px;
+}
+
+.tip p, .tip li {
+    font-size: 18px;
+}
+
+.tip li {
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 10rem;
+    gap: 0.4rem;
+}

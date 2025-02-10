@@ -1,0 +1,80 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: sticky;
+    padding: 1rem;
+    z-index: 1000;
+    top: 0;
+}
+
+.navbar-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky; 
+    padding: 1rem;
+    width: 50%;
+    border: 1px solid #1a1a1a;
+    border-radius: 30px;
+    background-color: #d1f8df52;
+    backdrop-filter: blur(10px);
+}
+
+.brand-name {
+    font-size: 1.3rem;
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto Flex";
+    font-weight: 500;
+    margin-right: 3rem;
+    width: 50%;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.navbar-links a:hover {
+    cursor: pointer;
+}
+
+.build-resume {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+}
+
+.arrow {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    background-color: #f8f8f8e8;
+    border-radius: 10%;
+    top: 2.6rem;
+    transform: translateX(10px) rotateZ(45deg);
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+.dropdown {
+    position: absolute;
+    top: 3rem;
+    transform: translateX(-10px);
+    background-color: #f8f8f8e8;
+    border-radius: 20px;
+    padding: 0.6rem;
+    font-family: "montserrat";
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.build-resume:hover .arrow,
+.build-resume:hover .dropdown {
+  display: block;
+}

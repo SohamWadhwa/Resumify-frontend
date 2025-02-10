@@ -1,0 +1,30 @@
+* {
+    font-family: "montserrat";
+}
+
+.container-aboutus {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.aboutme-container {
+    padding: 4rem;
+}
+
+.aboutme {
+    background-color: rgba(255, 253, 186, 0.323);
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+h1 {
+    font-family: "Roboto Flex";
+    font-size: 48px;
+}
+
+p {
+    margin-top: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: larger;
+}
